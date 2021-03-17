@@ -13,6 +13,9 @@
   text-align: center;
   background-color: rgb(68, 126, 68);
 }
+.navbar-nav {
+  visibility: hidden;
+}
 .nav-item {
   visibility: hidden;
 }
@@ -56,6 +59,9 @@
   background-color: #e4bad4;
 }
 @media (max-width: 600px) {
+  .navbar-nav {
+    visibility: visible;
+  }
   .nav-item {
     visibility: visible;
     border-color: white;
