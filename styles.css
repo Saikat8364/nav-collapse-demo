@@ -1,8 +1,53 @@
+.navbar {
+  background-color: #393232;
+}
+.navbar-brand {
+  color: #fff;
+  font-family: "Oswald";
+  font-weight: 1000;
+  font-size: 1.5rem;
+}
 .nav-item {
   visibility: hidden;
 }
+
 .navbar-toggler {
   visibility: hidden;
+}
+.container-fluid {
+  background-color: #7bc9a6;
+  padding: 2rem 2rem;
+}
+.row {
+  text-align: center;
+}
+.menu-head {
+  text-align: center;
+  font-family: "Oswald";
+  margin-bottom: 2rem;
+  color: white;
+}
+.box {
+  color: #40394a;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  font-family: "Oswald";
+}
+.box > h2 {
+  font-size: 2.5rem;
+}
+.box > p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.top {
+  background-color: #edffec;
+}
+.middle {
+  background-color: #f6dfeb;
+}
+.bottom {
+  background-color: #e4bad4;
 }
 @media (max-width: 600px) {
   .nav-item {
