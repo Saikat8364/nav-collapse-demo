@@ -1,14 +1,17 @@
 .navbar {
   background-color: #393232;
+  padding: 0.5rem 0 0;
 }
 .navbar-brand {
   color: #fff;
   font-family: "Oswald";
   font-weight: 1000;
   font-size: 1.5rem;
+  padding-left: 1rem;
 }
 .navbar-nav {
   text-align: center;
+  background-color: rgb(68, 126, 68);
 }
 .nav-item {
   visibility: hidden;
@@ -55,6 +58,7 @@
 @media (max-width: 600px) {
   .nav-item {
     visibility: visible;
+    border-color: white;
   }
   .navbar-toggler {
     visibility: visible;
