@@ -1,9 +1,14 @@
 .nav-item {
   visibility: hidden;
 }
-
+.navbar-toggler {
+  visibility: hidden;
+}
 @media (max-width: 600px) {
   .nav-item {
+    visibility: visible;
+  }
+  .navbar-toggler {
     visibility: visible;
   }
 }
