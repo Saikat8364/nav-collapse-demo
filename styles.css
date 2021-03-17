@@ -1,0 +1,9 @@
+.nav-item {
+  visibility: hidden;
+}
+
+@media (max-width: 600px) {
+  .nav-item {
+    visibility: visible;
+  }
+}
